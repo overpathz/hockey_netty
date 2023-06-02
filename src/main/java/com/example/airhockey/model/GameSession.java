@@ -11,5 +11,4 @@ public class GameSession {
     private Player secondPlayer;
     private Puck puck = new Puck();
     private GameStatus status;
-    private final BlockingQueue<String> queue = new ArrayBlockingQueue<>(100);
 }
